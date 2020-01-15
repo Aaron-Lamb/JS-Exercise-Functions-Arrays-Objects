@@ -60,9 +60,15 @@ function makePersonObject(id, name, email) {
  * passing { id: 1, name: 'Leia', email: 'leia@leia.com` } as the argument,
  * the returned value should look like `Hello, my name is Leia`.
 */
-function getName(name) {
-  return 'Hello, my name is ' + name;
-}
+function getName(Objectreturn) {
+  return 'Hello, my name is ' + Objectreturn.name
+  }
+  
+  getName(Objectreturn = {
+    id: 1,
+    name: 'Leia',
+    email: 'leia@leia.com'
+  });
 
 /**
  * ### Challenge `makeSmartPerson`
@@ -77,9 +83,16 @@ function getName(name) {
  *         and returns a string like `Hello, my name is {name}`.
  *         where `{name}` is the name passed into `makeSmartPerson`.
 */
-function makeSmartPerson(/* code here */) {
-  /* code here */
-}
+function makeSmartPerson(name) {
+  return ObjectSmart = {
+    name: 'Leia',
+    sum: (a + b);
+    },
+    speak = {
+      return 'Hello, my name is ' + ObjectSmart.name;
+    }
+  }
+  
 
 
 
