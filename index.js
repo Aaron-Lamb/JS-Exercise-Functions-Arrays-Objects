@@ -268,7 +268,9 @@ function getGermanCars(inventory) {
   let GermanArr = [];
   for (i = 0; i < inventory.length; i++){
     if (inventory[i].car_make === 'Audi' || 
-    inventory[i].car_make === 'BMW' || inventory[i].car_make === 'Mercedes-Benz' || inventory[i].car_make === 'Volkswagen'){
+      inventory[i].car_make === 'BMW' || 
+      inventory[i].car_make === 'Mercedes-Benz' || 
+      inventory[i].car_make === 'Volkswagen'){
       GermanArr.push(inventory[i]);
     }
   }
@@ -293,9 +295,15 @@ function getGermanCars(inventory) {
  *   return num * 2
  * }
 */
-const sum = null; // code here!
-const addFive = null; // code here!
-const argTimesTwo = null; // code here!
+const sum = (a, b) => {
+  return a + b;
+}
+const addFive = (num) => {
+  return num + 5;
+}
+const argTimesTwo = (num) => {
+  return num * 2;
+}
 
 /**
  * ### Challenge `carMaker`
